@@ -16,11 +16,11 @@ mixin Swimming{
   void swim()=>print('Swimming');
 }
 
-class Animal with Breath,Sleep{//parent class
+class Animal with Breath,Sleep,Swimming{//parent class
   void walk()=>print('Walking');
 }
 
-class Fish extends Animal with Swimming{
+class Fish extends Animal{
 //subclass fish extends to animal with mixin swimming
 @override
   void walk()=>print('Fish does not walk');
