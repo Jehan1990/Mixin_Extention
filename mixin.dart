@@ -3,6 +3,7 @@
 ///Mixin cannot be instantiated.
 ///with keyword is used for a class to use mixin
 
+
 mixin Sleep{
   void sleep()=>print('Sleeping');
 }
@@ -25,6 +26,7 @@ class Fish extends Animal with Swimming{
   void walk()=>print('Fish does not walk');
 
 }
+
 
 class Human extends Animal with Swimming{
 
