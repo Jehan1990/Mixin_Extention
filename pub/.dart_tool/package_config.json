@@ -29,7 +29,7 @@
       "name": "test",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "2.12"
     }
   ],
   "generator": "pub",
