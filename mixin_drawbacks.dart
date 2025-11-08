@@ -1,5 +1,5 @@
 //Mixin cant have constructors as they dont instantiate objects
-//Mixin can lead name collition
+//Mixin can lead name collision
 
 
 mixin mixin1{
@@ -18,5 +18,7 @@ void main(){
 
   final foo=Foo();
   foo.printFoo();
+///Dart does not know which foo variable call(from mixin1 or mixin2)
+///and due which it calls the last created foo variable this is callled name collision
 
 }
